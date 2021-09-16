@@ -1,24 +1,23 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "fantastic-umbrella",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/connerc11/E-commerce-back-end.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/connerc11/E-commerce-back-end/issues"
   },
+  "homepage": "https://github.com/connerc11/E-commerce-back-end#readme",
   "dependencies": {
     "dotenv": "^8.6.0",
     "express": "^4.17.1",
