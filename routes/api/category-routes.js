@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { receiveMessageOnPort } = require('worker_threads');
+
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
